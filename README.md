@@ -27,7 +27,7 @@ A responsive e-commerce product listing web app built with Next.js. It features:
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/ecommerce-product-listing.git
+git clone https://github.com/rashid-exe/ecommerce-product-listing.git
 cd ecommerce-product-listing
 npm install
 Start the development server:
