@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🛍️ E-commerce Product Listing Page
 
-## Getting Started
+A responsive e-commerce product listing web app built with Next.js. It features:
 
-First, run the development server:
+- Product grid with image, title, price, and description
+- Client-side search and category filter
+- Product detail modal
+- Add to Cart functionality
+- Zustand for global state
+- React Hook Form + Zod for a mock product submission form
+- Tailwind CSS for styling
+
+## 🚀 Live Demo
+
+👉 [Click here to view the live site](https://e-commerce-frontend-gamma-seven.vercel.app/)
+
+## 📦 Tech Stack
+
+- **Next.js**
+- **Tailwind CSS**
+- **React Query**
+- **Zustand**
+- **React Hook Form + Zod**
+
+## 🛠️ Getting Started
+
+Clone the repo and install dependencies:
 
 ```bash
+git clone https://github.com/your-username/ecommerce-product-listing.git
+cd ecommerce-product-listing
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000
+📁 Folder Structure
+pgsql
+Copy
+Edit
+components/
+├── AddProductForm.tsx
+├── Cart.tsx
+├── Navbar.tsx
+├── ProductCard.tsx
+├── ProductModal.tsx
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+pages/
+├── index.tsx
+├── add.tsx
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+store/
+├── useStore.ts
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+types/
+├── index.ts
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+lib/
+├── api.ts
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+API Used
+Fake Store API
 
-## Learn More
+Responsive
+Fully responsive across mobile, tablet, and desktop screens.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Author
+Made with ❤️ by Rashid
