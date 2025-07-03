@@ -4,7 +4,6 @@ import { useStore } from '@/store/useStore';
 import { Product } from '@/types';
 import ProductCard from '@/components/ProductCard';
 import ProductModal from '@/components/ProductModal';
-import AddProductForm from '@/components/AddProductForm';
 import Navbar from '@/components/Navbar';
 
 export default function Home() {
