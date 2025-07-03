@@ -8,7 +8,7 @@ import Navbar from '@/components/Navbar';
 
 export default function Home() {
   const { search, category, setSearch, setCategory } = useStore();
-  const { data: products = [], isLoading } = useQuery({
+  const { data: products = [], } = useQuery({
   queryKey: ['products'],
   queryFn: getProducts,
 });
